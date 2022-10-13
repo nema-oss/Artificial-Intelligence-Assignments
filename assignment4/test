@@ -1,0 +1,119 @@
+#!/usr/bin/python           # This is server.py file
+
+import socket  # Import socket module
+import numpy as np
+import time
+from multiprocessing.pool import ThreadPool
+import os
+
+
+class Move():
+    def __init__(self, value) -> None:
+        self.move=0
+        self.value=value
+
+def terminalTest(board):
+    for i in range(6):
+        if board[i]!=0:
+            return False
+    for i in range(7, 13):
+        if board[i]!=0:
+            return False
+    return True
+
+def utility(board):
+    return board[6]-board[13]
+
+
+def result(board, i):
+    q = board[i]
+    board[i]=0
+    for j in range(i+1, len(board)):
+        if q==0:
+            if i<6 and j<6 and board[j]==0:
+                board[6]+=1
+                board[6]+=board[12-j]
+                board[12-j]=0
+            break
+        q-=1
+        board[j]+=1
+    for j in range(0, i):
+        if q==0:
+            break
+        q-=1
+        board[j]+=1
+    return board
+
+def minValue(board, alfa, beta, depth):
+    depth-=1
+    if terminalTest(board) or depth<0:
+        return Move(utility(board))
+    v = Move(50)
+    for i in range(7, 13):
+        backup=board.copy()
+        v.move=i
+        if board[i]+i==13:
+            v.value = min(v.value, minValue(result(backup,i), alfa, beta, depth ).value)
+        else:
+            v.value = min(v.value, maxValue(result(backup,i), alfa, beta, depth ).value)
+        if v.value<=alfa:
+            return v
+        beta = min(beta, v.value)
+    return v
+
+def maxValue(board, alfa, beta, depth):
+    depth-=1
+    if terminalTest(board) or depth<0:
+        return Move(utility(board))
+    v = Move(-50)
+    for i in range(6):
+        backup=board.copy()
+        v.move=i
+        if board[i]+i==6:
+            v.value = max(v.value, maxValue(result(backup, i), alfa, beta, depth).value)
+        else:
+            v.value=max(v.value, minValue(result(backup, i), alfa, beta, depth).value)
+        if v.value>=beta:
+            return v
+        alfa = max(alfa, v.value)
+    return v
+
+def alfaBetaSearch(board):
+    depth=3
+    backup = board.copy()
+    v=maxValue(board, -50, 50, depth)
+    board = backup.copy()
+    return v
+
+def printBoard(board):
+    print(str(board[13])+"\t", end="")
+    for i in range(-2, -8, -1):
+        print(board[i], end=" ")
+    print("\n \t",end="")
+    for i in range(6):
+        print(board[i], end=" ")
+    print("\t"+str(board[6])+"\n")
+
+# VARIABLES
+playerName = 'Nemanja_Antonic'
+playerTurn=0
+gameEnd=0
+MAX_DEPTH=3
+depth=3
+board = [4, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 4, 4, 0]
+printBoard(board)
+while not gameEnd:
+    if playerTurn==0:
+        move = alfaBetaSearch(board)
+        print(move.value)
+        board = result(board, move.move)
+        printBoard(board)
+        playerTurn=1
+    else:
+        playerTurn=0
+        move=int(input("Enter move\n"))
+        board = result(board, move)
+        printBoard(board)
+        
+    if terminalTest(board):
+        gameEnd=1

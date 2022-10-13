@@ -1,0 +1,663 @@
+Starting new run
+run	p1	p2	outcome
+Starting new run
+run	p1	p2	outcome
+0	1	1	8534.68
+1	1	1	8970.68
+2	1	1	8209.54
+3	1	1	8488.75
+4	1	1	8497.08
+5	1	1	8199.38
+6	1	1	9449.41	FAIL
+7	1	1	9102.13	FAIL
+8	1	1	9935.96	FAIL
+9	1	1	8849.3
+Starting new run
+run	p1	p2	outcome
+0	2	1	9308.77	FAIL
+1	2	1	9681.28	FAIL
+2	2	1	9033.23	FAIL
+3	2	1	9545.44	FAIL
+4	2	1	9149.31	FAIL
+5	2	1	9546.8	FAIL
+6	2	1	8402.67
+7	2	1	9453.09	FAIL
+8	2	1	9170.01	FAIL
+9	2	1	9161.87	FAIL
+Starting new run
+run	p1	p2	outcome
+0	1	2	10698.21	FAIL
+1	1	2	8940.19
+2	1	2	9210.4	FAIL
+3	1	2	8305.77
+4	1	2	9911.1	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	4	9523.38	FAIL
+1	1	4	9200.04	FAIL
+2	1	4	9195.15	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	8	9793.36	FAIL
+1	1	8	8382.94
+2	1	8	9818.95	FAIL
+3	1	8	9235.93	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	16	10248.28	FAIL
+1	1	16	9410.56	FAIL
+2	1	16	8864.32
+3	1	16	8877.97
+4	1	16	8897.55
+5	1	16	8958.42
+6	1	16	10231.53	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	32	8934.49
+1	1	32	8453.72
+2	1	32	8711.59
+3	1	32	8777.2
+4	1	32	9763.6	FAIL
+5	1	32	9380.99	FAIL
+6	1	32	8324.84
+7	1	32	9736.08	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	64	8732.29
+1	1	64	10902.66	FAIL
+2	1	64	9688.26	FAIL
+3	1	64	10247.29	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	128	8790.07
+1	1	128	9108.03	FAIL
+2	1	128	8888.82
+3	1	128	8720.04
+4	1	128	8363.74
+5	1	128	8646.09
+6	1	128	8445.21
+7	1	128	9251.49	FAIL
+8	1	128	9638.2	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	256	10787.49	FAIL
+1	1	256	9750.27	FAIL
+2	1	256	9320.31	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	2	9217.89	FAIL
+1	2	2	9650.0	FAIL
+2	2	2	9263.63	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	4	9529.92	FAIL
+1	2	4	8619.99
+2	2	4	9083.63	FAIL
+3	2	4	9232.84	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	8	8521.87
+1	2	8	8773.66
+2	2	8	9382.75	FAIL
+3	2	8	9194.75	FAIL
+4	2	8	9020.51	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	16	8347.88
+1	2	16	10661.31	FAIL
+2	2	16	8963.82
+3	2	16	8432.69
+4	2	16	9012.7	FAIL
+5	2	16	9541.0	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	32	8411.2
+1	2	32	7877.57
+2	2	32	8883.53
+3	2	32	8874.26
+4	2	32	8607.13
+5	2	32	8804.32
+6	2	32	8337.44
+7	2	32	8583.26
+8	2	32	8737.65
+9	2	32	8662.85
+Starting new run
+run	p1	p2	outcome
+0	2	64	10425.81	FAIL
+1	2	64	8804.7
+2	2	64	9952.99	FAIL
+3	2	64	9213.08	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	128	9772.8	FAIL
+1	2	128	9408.13	FAIL
+2	2	128	10383.22	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	256	11659.67	FAIL
+1	2	256	9101.38	FAIL
+2	2	256	10731.57	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	1	8584.12
+1	4	1	9315.98	FAIL
+2	4	1	8722.25
+3	4	1	10014.83	FAIL
+4	4	1	8425.99
+5	4	1	9850.21	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	2	8686.51
+1	4	2	9145.56	FAIL
+2	4	2	10264.44	FAIL
+3	4	2	9046.65	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	4	9665.73	FAIL
+1	4	4	9792.09	FAIL
+2	4	4	9431.73	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	8	9597.11	FAIL
+1	4	8	9743.8	FAIL
+2	4	8	8264.77
+3	4	8	8595.7
+4	4	8	8881.19
+5	4	8	9428.52	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	16	9302.12	FAIL
+1	4	16	9372.18	FAIL
+2	4	16	9467.39	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	32	10053.43	FAIL
+1	4	32	9274.49	FAIL
+2	4	32	8478.28
+3	4	32	9376.52	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	64	8800.42
+1	4	64	9752.74	FAIL
+2	4	64	8615.78
+3	4	64	9670.68	FAIL
+4	4	64	9437.61	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	128	9538.98	FAIL
+1	4	128	10221.02	FAIL
+2	4	128	9056.28	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	256	10748.35	FAIL
+1	4	256	9105.84	FAIL
+2	4	256	9916.34	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	8	1	8900.76
+1	8	1	8474.02
+2	8	1	9871.31	FAIL
+3	8	1	8156.31
+4	8	1	8281.81
+5	8	1	8346.15
+6	8	1	8848.54
+7	8	1	9280.81	FAIL
+8	8	1	9472.56	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	8	2	9421.52	FAIL
+1	8	2	8440.64
+2	8	2	8304.24
+3	8	2	9813.1	FAIL
+4	8	2	9899.56	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	32	9229.78	FAIL
+1	2	32	8896.98
+2	2	32	8923.94
+3	2	32	8633.67
+4	2	32	9509.33	FAIL
+5	2	32	9190.97	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	1	8850.34
+1	1	1	8997.99
+2	1	1	8578.99
+3	1	1	8053.9
+4	1	1	9414.71	FAIL
+5	1	1	8311.67
+6	1	1	9212.83	FAIL
+7	1	1	8664.02
+8	1	1	8621.4
+9	1	1	8986.23
+Starting new run
+run	p1	p2	outcome
+0	1	1	8485.34
+1	1	1	9669.79	FAIL
+2	1	1	8662.34
+3	1	1	8784.95
+4	1	1	8686.25
+5	1	1	8592.63
+6	1	1	8775.57
+7	1	1	8813.08
+8	1	1	9552.52	FAIL
+9	1	1	8985.11
+Starting new run
+run	p1	p2	outcome
+0	2	32	10372.47	FAIL
+1	2	32	8737.95
+2	2	32	9192.4	FAIL
+3	2	32	10509.0	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	16	8740.21
+1	2	16	9587.53	FAIL
+2	2	16	8895.95
+3	2	16	8821.74
+4	2	16	10729.5	FAIL
+5	2	16	8923.91
+6	2	16	8300.67
+7	2	16	8987.08
+8	2	16	9360.48	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	8	8888.84
+1	2	8	9478.88	FAIL
+2	2	8	8439.42
+3	2	8	9974.5	FAIL
+4	2	8	8700.77
+5	2	8	9444.12	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	2	9094.08	FAIL
+1	1	2	8665.16
+2	1	2	8029.23
+3	1	2	9379.92	FAIL
+4	1	2	7888.67
+5	1	2	8512.91
+6	1	2	8084.77
+7	1	2	9807.19	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	4	8923.51
+1	1	4	8975.2
+2	1	4	9339.05	FAIL
+3	1	4	9387.03	FAIL
+4	1	4	8130.82
+5	1	4	9418.86	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	8	9320.09	FAIL
+1	1	8	8024.25
+2	1	8	9001.72	FAIL
+3	1	8	8935.73
+4	1	8	8769.67
+5	1	8	8445.99
+6	1	8	9647.16	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	16	9241.7	FAIL
+1	1	16	8849.0
+2	1	16	9246.65	FAIL
+3	1	16	9746.16	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+Starting new run
+run	p1	p2	outcome
+Starting new run
+run	p1	p2	outcome
+Starting new run
+run	p1	p2	outcome
+Starting new run
+run	p1	p2	outcome
+0	1	5	8993.08
+1	1	5	8779.16
+2	1	5	8981.94
+3	1	5	8941.52
+4	1	5	9806.59	FAIL
+5	1	5	8998.09
+6	1	5	8998.88
+7	1	5	8764.29
+8	1	5	8978.72
+9	1	5	8746.84
+Starting new run
+run	p1	p2	outcome
+0	1	6	8998.93
+1	1	6	9612.7	FAIL
+2	1	6	9665.67	FAIL
+3	1	6	8998.01
+4	1	6	8980.26
+5	1	6	9389.63	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	5	9446.31	FAIL
+1	2	5	9703.36	FAIL
+2	2	5	8968.54
+3	2	5	8999.39
+4	2	5	9342.25	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	5	9630.46	FAIL
+1	1	5	8996.48
+2	1	5	8998.0
+3	1	5	10281.49	FAIL
+4	1	5	8982.92
+5	1	5	9461.06	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	5	9131.06	FAIL
+1	1	5	9605.95	FAIL
+2	1	5	8997.49
+3	1	5	9048.92	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	4	9246.63	FAIL
+1	1	4	8997.49
+2	1	4	8941.43
+3	1	4	8968.02
+4	1	4	9292.3	FAIL
+5	1	4	8935.22
+6	1	4	9225.47	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	16	9155.68	FAIL
+1	1	16	8824.12
+2	1	16	8945.43
+3	1	16	9237.47	FAIL
+4	1	16	9601.16	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	10	8987.78
+1	1	10	8917.21
+2	1	10	8995.55
+3	1	10	9145.11	FAIL
+4	1	10	9040.42	FAIL
+5	1	10	8922.15
+6	1	10	9191.55	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	7	8987.75
+1	1	7	9657.93	FAIL
+2	1	7	8923.67
+3	1	7	9331.03	FAIL
+4	1	7	9000.43	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	2	8992.08
+1	1	2	8987.97
+2	1	2	9130.76	FAIL
+Starting new run
+run	p1	p2	outcome
+0	1	5	8971.77
+1	1	5	9172.98	FAIL
+2	1	5	10074.88	FAIL
+3	1	5	9367.85	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	10	8930.41
+1	1	10	8917.93
+2	1	10	9107.79	FAIL
+3	1	10	10824.55	FAIL
+4	1	10	8988.46
+5	1	10	9706.9	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	3	10739.41	FAIL
+1	1	3	10183.61	FAIL
+2	1	3	9318.72	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	50	15	10936.81	FAIL
+1	50	15	9631.63	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	50	3	9474.49	FAIL
+1	50	3	10176.54	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	3	10560.49	FAIL
+1	1	3	9371.76	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	5	8828.31
+1	1	5	10115.89	FAIL
+2	1	5	10069.69	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	10	10241.93	FAIL
+1	1	10	9656.4	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	32	9485.14	FAIL
+1	2	32	10173.29	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	10	15	8995.85
+1	10	15	9310.85	FAIL
+2	10	15	10333.53	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	150	100	10643.58	FAIL
+1	150	100	11972.29	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	20	200	11388.43	FAIL
+1	20	200	12398.08	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	2	15	9115.26	FAIL
+1	2	15	10760.03	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	5	8891.52
+1	1	5	9502.33	FAIL
+2	1	5	10594.09	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	5	9411.61	FAIL
+1	1	5	10084.72	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	3	9924.4	FAIL
+1	1	3	9005.91	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	3	9612.39	FAIL
+1	1	3	8997.4
+2	1	3	8994.72
+3	1	3	8996.36
+4	1	3	9082.95	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	5	9065.04	FAIL
+1	1	5	9187.66	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	4	8997.02
+1	1	4	9743.27	FAIL
+2	1	4	8956.66
+3	1	4	8827.39
+4	1	4	9972.03	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	50	15	8985.51
+Starting new run
+run	p1	p2	outcome
+0	50	15	9576.22	FAIL
+1	50	15	8923.75
+2	50	15	9244.19	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	50	15	8881.49
+1	50	15	8758.38
+2	50	15	9259.75	FAIL
+3	50	15	8998.73
+4	50	15	9372.46	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	4	10	8861.56
+1	4	10	8999.06
+2	4	10	9828.97	FAIL
+3	4	10	8974.85
+4	4	10	8995.38
+5	4	10	9825.77	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	1	9023.81	FAIL
+1	1	1	8983.37
+2	1	1	8989.25
+3	1	1	8992.97
+4	1	1	8997.53
+5	1	1	9825.27	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	1	8882.5
+1	1	1	8870.28
+2	1	1	8978.41
+3	1	1	8994.0
+4	1	1	8975.91
+5	1	1	8980.05
+6	1	1	9015.12	FAIL
+7	1	1	9514.95	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+Starting new run
+run	p1	p2	outcome
+0	1	1	9543.06	FAIL
+1	1	1	8928.7
+2	1	1	9016.46	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	1	8977.14
+1	1	1	8961.12
+2	1	1	8999.34
+3	1	1	8951.99
+4	1	1	9364.16	FAIL
+5	1	1	8973.95
+6	1	1	9122.54	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	1	10062.86	FAIL
+1	1	1	8936.7
+2	1	1	9771.96	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	p1	p2	outcome
+0	1	1	8981.51
+1	1	1	8899.42
+2	1	1	8967.16
+3	1	1	8963.05
+4	1	1	8964.34
+5	1	1	8940.54
+6	1	1	8958.19
+7	1	1	8884.0
+8	1	1	8997.85
+9	1	1	8828.63
+Starting new run
+run	p1	p2	outcome
+0	1	1	8993.29
+1	1	1	8982.65
+2	1	1	9060.14	FAIL
+3	1	1	8972.3
+4	1	1	8987.85
+5	1	1	8985.2
+6	1	1	9053.47	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	mt	gbr	ps	d	outcome
+0	1	1	2	64	8989.26
+1	1	1	2	64	8983.93
+2	1	1	2	64	9191.39	FAIL
+3	1	1	2	64	9248.75	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	mt	gbr	ps	d	outcome
+0	1	1	2	32	9048.96	FAIL
+1	1	1	2	32	9075.42	FAIL
+Stopping as this instance has failed more than twice
+Starting new run
+run	mt	gbr	ps	d	outcome
+0	1	1	2	128	8957.88
+1	1	1	2	128	9163.72	FAIL
+2	1	1	2	128	8969.41
+3	1	1	2	128	8930.32
+4	1	1	2	128	8896.46
+5	1	1	2	128	8915.29
+6	1	1	2	128	8850.41
+7	1	1	2	128	8640.84
+8	1	1	2	128	8923.78
+9	1	1	2	128	8991.69
+Starting new run
+run	mt	gbr	ps	d	outcome
+0	1	1	2	256	10067.79	FAIL
+1	1	1	2	256	8952.82
+2	1	1	2	256	9115.86	FAIL
+Stopping as this instance has failed more than twice
